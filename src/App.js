@@ -17,7 +17,7 @@ const router = createBrowserRouter([
 
     {path: '/quizes', 
     loader:async() => {
-        return fetch('https://jsonplaceholder.typicode.com/users');
+        return fetch('https://openapi.programming-hero.com/api/quiz');
     },
     element: <Quizes></Quizes>},
   ]},
