@@ -24,22 +24,17 @@ const router = createBrowserRouter([
 
     {path: '/start/:startId', 
     loader: async ({params}) => {
-      console.log('p=',params);
+     // console.log('p=',params.startId);
+     const ID = params.startId;
       //return console.log(params.friendID)
   
-          return fetch(`https://openapi.programming-hero.com/api/quiz/${params.startId}`);
+          return fetch(`https://openapi.programming-hero.com/api/quiz/${ID}`);
           
-  
     },
     element: <Start></Start>},
     
     
   ]},
-
-
-  
- 
-
 
  
   {path: '/*', element: <div>not 404 found</div>},
