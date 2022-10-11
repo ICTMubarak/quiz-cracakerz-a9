@@ -14,7 +14,7 @@ const Header = () => {
                      <h3>OnlineQuiz.com</h3>
                 </div>
 
-                <div>
+                <div className='menu'>
                     <Link to ='home'>Home</Link>
                     <Link to ='quizes'>QuizTopics</Link>
                     <Link to ='statistics'>Statistics</Link>
@@ -27,6 +27,7 @@ const Header = () => {
                 <img src={Banner} width={1400} height={150}/>
                 
             </div>
+            
         </div>
     );
 };

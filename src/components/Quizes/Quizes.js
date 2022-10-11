@@ -10,7 +10,7 @@ const Quizes = () => {
     //console.log(quizArray);
     return (
         <div>
-            <h1>This is Quizes</h1>
+            <h2>Some quiz topics you can practice.</h2>
             <div className='quizes'>
               {
                 quizArray.map(quiz => <Quiz key={quiz.id} quiz={quiz}></Quiz>)

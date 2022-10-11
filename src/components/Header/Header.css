@@ -8,3 +8,12 @@
 .banner h1{
     background-color:skyblue;
 }
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: blue;
+    gap: 20px;
+   
+}
