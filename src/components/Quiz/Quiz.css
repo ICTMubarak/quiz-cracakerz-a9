@@ -1,4 +1,6 @@
 .quiz{
+    
+    align-items: center;
     width: 300px;
     height: 400px;
     border: 2px solid green;
