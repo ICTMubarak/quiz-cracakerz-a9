@@ -2,6 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Home from '../Home/Home';
 import './Header.css';
+import Banner from './banner.png';
+
+
 
 const Header = () => {
     return (
@@ -19,8 +22,9 @@ const Header = () => {
                 </div>
             </div>
 
-            <div>
-                <h1>website headline</h1>
+            <div className='banner'>
+                <h1>Online Quiz for your practice!</h1>
+                <img src={Banner} width={1400} height={150}/>
                 
             </div>
         </div>
