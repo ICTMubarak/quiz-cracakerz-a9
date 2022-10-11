@@ -1,0 +1,13 @@
+.quiz{
+    width: 300px;
+    height: 400px;
+    border: 2px solid green;
+    border-radius: 20px;
+    margin: 20px;
+    padding: auto;
+
+}
+.quiz img{
+    width: 250px;
+    height: 250px;
+}
