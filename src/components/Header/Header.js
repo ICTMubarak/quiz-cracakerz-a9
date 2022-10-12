@@ -24,7 +24,7 @@ const Header = () => {
 
             <div className='banner'>
                 <h1>Online Quiz for your practice!</h1>
-                <img src={Banner} width={1400} height={150}/>
+                <img src={Banner}/>
                 
             </div>
             
