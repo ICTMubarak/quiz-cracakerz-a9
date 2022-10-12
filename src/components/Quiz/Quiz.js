@@ -4,7 +4,7 @@ import Start from '../Start/Start';
 import './Quiz.css'
 
 const quiz = (quiz) => {
-    console.log(quiz);
+    //console.log(quiz);
     return ( 
         <div className='quiz'>
             <img src={quiz.quiz.logo} alt="" />
