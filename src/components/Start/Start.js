@@ -13,7 +13,7 @@ const Start = () => {
 
     return (
         <div>
-            <h1>start ok</h1>
+            <h2>Attend The Quiz and Incrise your Knoledge.</h2>
             {
                 quizQuestion.map(quizQuestion => <LoadQuiz quizQuestion={quizQuestion}></LoadQuiz>)
             }
